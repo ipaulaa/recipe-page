@@ -10,6 +10,7 @@
 }
 
 body {
+  color: var(--stone-600);
   font-family: "Outfit", sans-serif;
   font-size: 1rem;
   line-height: 150%;
@@ -25,15 +26,14 @@ img {
   object-fit: cover;
 }
 
-div {
+.container {
   padding: 40px;
 }
 
 h1 {
+  color: var(--stone-900);
+
   font-family: "Young Serif", serif;
   font-size: 2.25rem;
   line-height: 100%;
-}
-
-p {
 }

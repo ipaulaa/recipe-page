@@ -58,16 +58,31 @@ div > p {
 }
 
 ul {
-  color: var(--rose-800);
   list-style: disc inside;
-  /* TODO: change distance of list-style to 16px */
+}
+
+li::marker {
+  color: var(--rose-800);
 }
 
 li {
-  color: var(--stone-600);
   margin-bottom: 8px;
 }
 
 strong {
   font-weight: 700;
+}
+
+section:has(#ingredients, #instructions) {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+h2:not(#prep-time) {
+  margin: 32px 0 24px;
+  color: var(--brown-800);
+  font-family: "Young Serif", serif;
+
+  font-size: 1.75rem;
+  line-height: 100%;
 }

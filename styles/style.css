@@ -1,0 +1,18 @@
+:root {
+  --rose-50: #fff7fb;
+  --rose-800: #7a284e;
+  --stone-100: #f3e5d7;
+  --stone-150: #e3ddd7;
+  --stone-600: #5f564d;
+  --stone-900: #312E2C;
+  --brown-800: #854632;
+  --white: #fff;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  /* font-family: "Young Serif", serif; */
+}
+
+.page-wrapper {
+}

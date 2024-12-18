@@ -62,7 +62,7 @@ ul {
 }
 
 li::marker {
-  color: var(--rose-800);
+  color: var(--brown-800);
 }
 
 li {
@@ -85,4 +85,12 @@ h2:not(#prep-time) {
 
   font-size: 1.75rem;
   line-height: 100%;
+}
+
+ol {
+  list-style: number inside;
+}
+
+ol li::marker {
+  font-weight: 700;
 }

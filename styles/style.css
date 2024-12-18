@@ -69,6 +69,10 @@ li {
   margin-bottom: 8px;
 }
 
+li strong,
+li span {
+  margin-left: 16px;
+}
 strong {
   font-weight: 700;
 }
